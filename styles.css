@@ -63,12 +63,14 @@ a {
 /* ============================= */
 /* YOUTUBE */
 /* ============================= */
+
 .video-container {
   position: relative;
   width: 100%;
   max-width: 1000px;
   aspect-ratio: 16 / 9;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .video-container iframe {
@@ -77,6 +79,7 @@ a {
   border: 0;
   display: block;
 }
+
 
 /* ============================= */
 /* YOUTUBE */
